@@ -1,0 +1,28 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "gracieux412", email = "gracieuxkitsa20@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "ddgs>=9.16.0",
+    "langchain>=1.4.4",
+    "langchain-chroma>=1.1.0",
+    "langchain-openai>=1.7.0",
+    "langchain-text-splitters>=1.1.3",
+    "langchain-tools>=0.1.34",
+    "langgraph>=1.2.14",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+rag = "rag:main"
+
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
