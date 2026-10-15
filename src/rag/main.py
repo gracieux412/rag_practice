@@ -22,7 +22,7 @@ def message_text(message) -> str:
 
 def main() -> None:
     config.configure_stdio()
-    print("Custom Agent Engine Active.")
+    print("Custom Agent Engine very Active.")
     print("Ask anything. The agent routes to ChromaDB or the internet.")
     print("Type 'exit' or 'quit' to close the session.")
     print("Put .txt files in the data folder, then restart, to replace the sample index.")
